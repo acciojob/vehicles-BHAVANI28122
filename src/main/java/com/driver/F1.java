@@ -54,10 +54,5 @@ public class F1 extends Car {
     }
 
 
-    public int getCurrentDirection(){
-        int d = steer();
-        return d;
-    }
-
 }
 

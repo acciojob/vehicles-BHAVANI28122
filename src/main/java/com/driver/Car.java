@@ -20,8 +20,9 @@ public class Car extends Vehicle {
         this.type = type;
         this.currentGear = 1;
         this.seats = seats;
-
-
+    }
+    public String getName(String name){
+        return this.name;
     }
 
     public Car(String name,boolean isManual) {
